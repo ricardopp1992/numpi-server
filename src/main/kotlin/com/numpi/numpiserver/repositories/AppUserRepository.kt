@@ -1,6 +1,6 @@
 package com.numpi.numpiserver.repositories
 
-import com.numpi.numpiserver.appuser.AppUser
+import com.numpi.numpiserver.models.appuser.AppUser
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.data.jpa.repository.Modifying
 import org.springframework.data.jpa.repository.Query

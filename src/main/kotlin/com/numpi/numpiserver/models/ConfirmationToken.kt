@@ -1,6 +1,6 @@
 package com.numpi.numpiserver.models
 
-import com.numpi.numpiserver.appuser.AppUser
+import com.numpi.numpiserver.models.appuser.AppUser
 import java.time.LocalDateTime
 import javax.persistence.*
 

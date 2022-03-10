@@ -1,6 +1,7 @@
 package com.numpi.numpiserver.services
 
 import com.numpi.numpiserver.models.RegistrationRequest
+import com.numpi.numpiserver.models.appuser.AppUser
 import com.numpi.numpiserver.utils.Validator
 import org.springframework.stereotype.Service
 import java.time.LocalDateTime
@@ -38,5 +39,4 @@ class RegistrationService (
         appUserService.enabledUser(confirmationToken.appUser.email)
         return "Confirmed!"
     }
-
 }
